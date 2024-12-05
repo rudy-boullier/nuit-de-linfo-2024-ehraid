@@ -6,7 +6,7 @@ on:
       - main  # Déclenche le workflow sur la branche principale
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,7 +23,9 @@ jobs:
 
     - name: Push Docker Image
       run: docker push ${{ secrets.DOCKER_REGISTRY }}/nuit-de-linfo:latest
-
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
     - name: Deploy to Portainer
       env:
         PORTAINER_URL: ${{ secrets.PORTAINER_URL }}
