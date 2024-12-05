@@ -31,6 +31,10 @@ jobs:
         PORTAINER_PASSWORD: ${{ secrets.PORTAINER_PASSWORD }}
       run: |
         # Get Portainer API token
+        echo $PORTAINER_USERNAME
+        curl -v -s -X POST "$PORTAINER_URL/api/auth" \
+          -H "Content-Type: application/json" \
+          -d '{"Username": "'$PORTAINER_USERNAME'", "Password": "'$PORTAINER_PASSWORD'"}'
         TOKEN=$(curl -s -X POST "$PORTAINER_URL/api/auth" \
           -H "Content-Type: application/json" \
           -d '{"Username": "'$PORTAINER_USERNAME'", "Password": "'$PORTAINER_PASSWORD'"}' | jq -r '.jwt')
