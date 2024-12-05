@@ -7,7 +7,7 @@
     "build:copybundle": "mkdir backend/public/ && cp -r front/dist/* backend/public/",
     "build:back": "cd backend && npm run build",
     "build": "npm run build:front && npm run build:copybundle && npm run build:back",
-    "start": "npm run build && cd backend && npm run start"
+    "start": "cd backend && npm run start"
   },
   "author": "",
   "license": "ISC",

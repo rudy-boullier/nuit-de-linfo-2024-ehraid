@@ -13,4 +13,6 @@ RUN npm run build
 
 RUN rm -r front
 
+EXPOSE 3000
+
 CMD npm start
