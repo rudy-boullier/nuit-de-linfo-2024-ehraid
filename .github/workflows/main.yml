@@ -33,7 +33,7 @@ jobs:
         # Get Portainer API token
         TOKEN=$(curl -s -X POST "$PORTAINER_URL/api/auth" \
           -H "Content-Type: application/json" \
-          -d '{"Username": "'$PORTAINER_USERNAME'", "Password": "'$PORTAINER_PASSWORD'"}' | jq -r '.jwt')
+          -d '{"Username": "$PORTAINER_USERNAME", "Password": "$PORTAINER_PASSWORD"}' | jq -r '.jwt')
 
         # Update the service in Portainer
         curl -s -X PUT "$PORTAINER_URL/api/stacks/42/git/redeploy?endpointId=2" \
