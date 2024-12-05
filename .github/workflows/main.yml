@@ -23,3 +23,22 @@ jobs:
 
     - name: Push Docker Image
       run: docker push ${{ secrets.DOCKER_REGISTRY }}/nuit-de-linfo:latest
+
+    - name: Deploy to Portainer
+      env:
+        PORTAINER_URL: ${{ secrets.PORTAINER_URL }}
+        PORTAINER_USERNAME: ${{ secrets.PORTAINER_USERNAME }}
+        PORTAINER_PASSWORD: ${{ secrets.PORTAINER_PASSWORD }}
+      run: |
+        # Get Portainer API token
+        TOKEN=$(curl -s -X POST "$PORTAINER_URL/api/auth" \
+          -H "Content-Type: application/json" \
+          -d '{"Username": "'$PORTAINER_USERNAME'", "Password": "'$PORTAINER_PASSWORD'"}' | jq -r '.jwt')
+
+        # Update the service in Portainer
+        curl -s -X PUT "$PORTAINER_URL/api/stacks/42/git/redeploy?endpointId=2" \
+          -H "Authorization: Bearer $TOKEN" \
+          -H "Content-Type: application/json" \
+          -d '{
+            "pullImage": true
+          }'
