@@ -1,0 +1,137 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #1d3557;
+	color: white;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	touch-action: manipulation; /* Désactive certains gestes de zoom sur mobiles */
+  }
+  
+  html {
+	-ms-touch-action: manipulation; /* Compatibilité avec IE/Edge */
+	-webkit-user-select: none; /* Désactive la sélection (empêche zoom double-tap) */
+	-webkit-touch-callout: none;
+  }
+  
+
+  #water-surface {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 20%;
+  }
+  
+  #water-surface img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Conserve le ratio tout en couvrant la div */
+	object-position: bottom; /* Aligne le bas de l'image avec le bas de la div */
+  }
+
+  #bg-top-sea{
+	background-image: "img/top_sea.jpg";
+	position: absolute;
+	top: 0;
+	left: 0;
+  }
+  
+  #game {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+  }
+  
+  #nautilus-container {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	gap: 10px;
+  }
+  
+  #nautilus, #nautilus-head {
+	width: 100px;
+	height: auto;
+	cursor: pointer;
+  }
+  
+  #nautilus-head {
+	display: none;
+  }
+  
+  #score {
+	font-size: 24px;
+	margin-top: 10px;
+  }
+  
+  #fish-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .fish {
+	z-index: 9999;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+  }
+  
+  #upgrades {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
+  .upgrade {
+	margin-bottom: 10px;
+	background: #457b9d;
+	padding: 10px;
+	border-radius: 5px;
+  }
+  
+  button {
+	background: #e63946;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+  }
+  
+  button.buy {
+	margin-top: 5px;
+  }
+  
+  button:disabled {
+	background: gray;
+	cursor: not-allowed;
+  }
+  
+
+
+
+
+  /* UPGRADES */
+  #upgrades{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  #upgrades-list{
+	display: flex;
+	flex-direction: row;
+  }
+  #upgrades-list > .column{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }

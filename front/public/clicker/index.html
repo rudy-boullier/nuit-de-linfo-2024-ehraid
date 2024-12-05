@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Nautilus Clicker</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div id="game">
+		<div id="water-surface">
+			<img src="img/top_sea.jpg" alt="Surface de l'eau">
+		</div>
+		<div id="nautilus-container">
+			<img id="nautilus" src="nautilus_shell.png" alt="Nautilus Shell">
+			<img id="nautilus-head" src="nautilus_head.png" alt="Nautilus Head">
+		</div>
+		<div id="fish-container"></div>
+		<div id="upgraded-container"></div>
+		<div id="upgrades">
+			<h2>Améliorations</h2>
+			<div id="upgrades-list">
+				<div class="column">
+
+					<div class="upgrade" data-cost="10">
+						<span>Canne à pêche (10 poissons)</span>
+						<button class="buy">Acheter</button>
+					</div>
+					<div class="upgrade" data-cost="50">
+						<span>Bateau de pêche (50 poissons)</span>
+						<button class="buy">Acheter</button>
+					</div>
+				</div>
+				<div class="column">
+
+					<div class="upgrade" data-cost="50">
+						<span>Bateau de pêche (50 poissons)</span>
+						<button class="buy">Acheter</button>
+					</div>
+					<div class="upgrade" data-cost="50">
+						<span>Bateau de pêche (50 poissons)</span>
+						<button class="buy">Acheter</button>
+					</div>
+					<div class="upgrade" data-cost="50">
+						<span>Bateau de pêche (50 poissons)</span>
+						<button class="buy">Acheter</button>
+					</div>
+					<div class="upgrade" data-cost="50">
+						<span>Bateau de pêche (50 poissons)</span>
+						<button class="buy">Acheter</button>
+					</div>
+					<div class="upgrade" data-cost="50">
+						<span>Bateau de pêche (50 poissons)</span>
+						<button class="buy">Acheter</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="global.js"></script>
+	<script src="upgrade.js"></script>
+	<script src="fish.js"></script>
+	<script src="nautilus.js"></script>
+</body>
+
+</html>
