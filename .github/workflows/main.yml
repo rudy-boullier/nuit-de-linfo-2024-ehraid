@@ -1,0 +1,25 @@
+name: CI/CD Deploy
+
+on:
+  push:
+    branches:
+      - main  # Déclenche le workflow sur la branche principale
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Log in to Docker Hub
+      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+    - name: Build Docker Image
+      run: |
+        docker build -t my-app:latest .
+        docker tag my-app:latest ${{ secrets.DOCKER_REGISTRY }}/nuit-de-linfo:latest
+
+    - name: Push Docker Image
+      run: docker push ${{ secrets.DOCKER_REGISTRY }}/my-app:latest
