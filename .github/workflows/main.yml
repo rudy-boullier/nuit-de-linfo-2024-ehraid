@@ -18,8 +18,8 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t my-app:latest .
-        docker tag my-app:latest ${{ secrets.DOCKER_REGISTRY }}/nuit-de-linfo:latest
+        docker build -t nuit-de-linfo:latest .
+        docker tag nuit-de-linfo:latest ${{ secrets.DOCKER_REGISTRY }}/nuit-de-linfo:latest
 
     - name: Push Docker Image
-      run: docker push ${{ secrets.DOCKER_REGISTRY }}/my-app:latest
+      run: docker push ${{ secrets.DOCKER_REGISTRY }}/nuit-de-linfo:latest
