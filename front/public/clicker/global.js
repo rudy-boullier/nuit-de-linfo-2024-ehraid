@@ -15,14 +15,9 @@ function updateScore(points) {
 	// console.log(score);
 }
 
-
-
-
-setInterval(() => {
-	if (score <= 1000000) {
-		spawnFish();
-	}
-}, 1);
+function back() {
+	window.location.href = "/";
+}
 
 
 addEventListener("scroll", (event) => {

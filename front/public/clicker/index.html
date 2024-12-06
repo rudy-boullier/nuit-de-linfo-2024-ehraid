@@ -12,10 +12,11 @@
 	<div id="game">
 		<div id="water-surface">
 			<img src="img/top_sea.jpg" alt="Surface de l'eau">
+			<img id="back" onclick="back()" src="img/back.png" alt="back to home">
 		</div>
 		<div id="nautilus-container">
-			<img id="nautilus" src="nautilus_shell.png" alt="Nautilus Shell">
-			<img id="nautilus-head" src="nautilus_head.png" alt="Nautilus Head">
+			<img id="pipe" src="img/pipe.png" alt="Nautilus Shell">
+			<img id="broken-pipe" src="img/broken-pipe.png" alt="Nautilus Head">
 		</div>
 		<div id="fish-container"></div>
 		<div id="upgraded-container"></div>
@@ -23,36 +24,43 @@
 			<h2>Améliorations</h2>
 			<div id="upgrades-list">
 				<div class="column">
-
-					<div class="upgrade" data-cost="10">
-						<span>Canne à pêche (10 poissons)</span>
+					<h3>Bateau</h3>
+					<div class="upgrade" data-effect-type="boat_small">
+						<span></span>
 						<button class="buy">Acheter</button>
 					</div>
-					<div class="upgrade" data-cost="50">
-						<span>Bateau de pêche (50 poissons)</span>
+					<div class="upgrade" data-effect-type="boat_mid">
+						<span></span>
+						<button class="buy">Acheter</button>
+					</div>
+					<div class="upgrade" data-effect-type="boat_big">
+						<span></span>
 						<button class="buy">Acheter</button>
 					</div>
 				</div>
 				<div class="column">
-
-					<div class="upgrade" data-cost="50">
-						<span>Bateau de pêche (50 poissons)</span>
+					<h3>Usine</h3>
+					<div class="upgrade" data-effect-type="factory_small">
+						<span></span>
 						<button class="buy">Acheter</button>
 					</div>
-					<div class="upgrade" data-cost="50">
-						<span>Bateau de pêche (50 poissons)</span>
+					<div class="upgrade" data-effect-type="factory_mid">
+						<span></span>
 						<button class="buy">Acheter</button>
 					</div>
-					<div class="upgrade" data-cost="50">
-						<span>Bateau de pêche (50 poissons)</span>
+					<div class="upgrade" data-effect-type="factory_big">
+						<span></span>
 						<button class="buy">Acheter</button>
 					</div>
-					<div class="upgrade" data-cost="50">
-						<span>Bateau de pêche (50 poissons)</span>
+				</div>
+				<div class="column">
+					<h3>Déchet</h3>
+					<div class="upgrade" data-effect-type="waste">
+						<span></span>
 						<button class="buy">Acheter</button>
 					</div>
-					<div class="upgrade" data-cost="50">
-						<span>Bateau de pêche (50 poissons)</span>
+					<div class="upgrade" data-effect-type="waste_nuk">
+						<span></span>
 						<button class="buy">Acheter</button>
 					</div>
 				</div>

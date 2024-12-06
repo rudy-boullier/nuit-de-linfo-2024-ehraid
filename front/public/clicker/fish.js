@@ -9,7 +9,7 @@ function spawnFish() {
 	fish.addEventListener('click', (e) => {
 		fish.remove();
 		console.log('click');
-		//updateScore(1);
+		updateScore(-1);
 	});
 	updateScore(1); // ajoute 1
 }
@@ -31,3 +31,11 @@ function getFish() {
 
 	return hitbox;
 }
+
+
+//TODO : activé spawnFish
+// setInterval(() => {
+// 	if (score <= 1000000) {
+// 		spawnFish();
+// 	}
+// }, 1);

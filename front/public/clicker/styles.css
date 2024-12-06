@@ -15,6 +15,14 @@ body {
 	-webkit-touch-callout: none;
   }
   
+  #back {
+	width: 3vw;
+	margin: 5px;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	position: absolute;
+  }
 
   #water-surface {
 	position: absolute;
@@ -24,7 +32,7 @@ body {
 	height: 20%;
   }
   
-  #water-surface img {
+  #water-surface :first-child {
 	width: 100%;
 	height: 100%;
 	object-fit: cover; /* Conserve le ratio tout en couvrant la div */
@@ -98,19 +106,16 @@ body {
 	border-radius: 5px;
   }
   
-  button {
+  .buy {
 	background: #e63946;
 	color: white;
 	border: none;
 	padding: 5px 10px;
 	cursor: pointer;
-  }
-  
-  button.buy {
 	margin-top: 5px;
   }
   
-  button:disabled {
+  .buy:disabled {
 	background: gray;
 	cursor: not-allowed;
   }
@@ -129,6 +134,7 @@ body {
   #upgrades-list{
 	display: flex;
 	flex-direction: row;
+	gap: 10px;
   }
   #upgrades-list > .column{
 	display: flex;
