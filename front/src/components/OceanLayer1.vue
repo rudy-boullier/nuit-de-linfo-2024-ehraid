@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wave-wrapper">
     <svg
       width="100%"
       height="100%"
@@ -9,9 +9,9 @@
       class="transition duration-300 ease-in-out delay-150"
     >
       <defs>
-        <linearGradient id="gradient" x1="2%" y1="37%" x2="98%" y2="63%">
-          <stop offset="5%" stop-color="#8ed1fc"></stop>
-          <stop offset="95%" stop-color="#0693e3"></stop>
+        <linearGradient id="gradient" gradientTransform="rotate(90)">
+          <stop offset="5%" stop-color="#3482dd"></stop>
+          <stop offset="95%" stop-color="#023d73"></stop>
         </linearGradient>
       </defs>
       <path
@@ -24,9 +24,9 @@
       ></path>
 
       <defs>
-        <linearGradient id="gradient" x1="2%" y1="37%" x2="98%" y2="63%">
-          <stop offset="5%" stop-color="#8ed1fc"></stop>
-          <stop offset="95%" stop-color="#0693e3"></stop>
+        <linearGradient id="gradient" gradientTransform="rotate(90)">
+          <stop offset="5%" stop-color="#3482dd"></stop>
+          <stop offset="95%" stop-color="#023d73"></stop>
         </linearGradient>
       </defs>
       <path
@@ -39,9 +39,9 @@
       ></path>
 
       <defs>
-        <linearGradient id="gradient" x1="2%" y1="37%" x2="98%" y2="63%">
-          <stop offset="5%" stop-color="#8ed1fc"></stop>
-          <stop offset="95%" stop-color="#0693e3"></stop>
+        <linearGradient id="gradient" gradientTransform="rotate(90)">
+          <stop offset="5%" stop-color="#3482dd"></stop>
+          <stop offset="95%" stop-color="#023d73"></stop>
         </linearGradient>
       </defs>
       <path
@@ -54,9 +54,9 @@
       ></path>
 
       <defs>
-        <linearGradient id="gradient" x1="2%" y1="37%" x2="98%" y2="63%">
-          <stop offset="5%" stop-color="#8ed1fc"></stop>
-          <stop offset="95%" stop-color="#0693e3"></stop>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="5%" stop-color="#4a90e2"></stop>
+          <stop offset="95%" stop-color="#023d73"></stop>
         </linearGradient>
       </defs>
       <path
@@ -68,21 +68,10 @@
         class="transition-all duration-300 ease-in-out delay-150 path-3"
       ></path>
     </svg>
-    <div class="bg-sea"></div>
   </div>
 </template>
 <script></script>
 <style>
-.bg-sea {
-  background: linear-gradient(
-    0deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
-  height: 100%;
-}
-
 .path-0 {
   animation: pathAnim-0 4s;
   animation-timing-function: linear;

@@ -11,5 +11,8 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nuit-de-linfo": "file:"
+  }
 }
