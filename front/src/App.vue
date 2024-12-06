@@ -4,14 +4,14 @@ import data from "./data/data.json"
 import Depth from "./models/depth.ts";
 
 const depths = data as Depth[];
-console.log(depths[0].fine)
 </script>
 
 <template>
   <OceanLayer1 />
-  <div v-for="depth in depths" :key="depth.depth" class="d-flex depth">
-    <div>
+  <div v-for="depth in depths" :key="depth.depth" class="d-flex">
+    <div class="d-flex depth">
       <h2>{{ depth.fine?.title }}</h2>
+      <p>{{ depth.fine?.text }}</p>
     </div>
   </div>
 </template>
