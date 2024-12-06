@@ -14,12 +14,27 @@
 			<img src="img/top_sea.jpg" alt="Surface de l'eau">
 			<img id="back" onclick="back()" src="img/back.png" alt="back to home">
 		</div>
-		<div id="nautilus-container">
-			<img id="pipe" src="img/pipe.png" alt="Nautilus Shell">
-			<img id="broken-pipe" src="img/broken-pipe.png" alt="Nautilus Head">
+		<div id="pipe-container">
+			<img onclick="removePoints()" id="pipe" src="img/pipe.png" alt="pipe">
+			<img onclick="addPoints()" id="broken-pipe" src="img/broken_pipe.png" alt="Broken pipe">
 		</div>
 		<div id="fish-container"></div>
-		<div id="upgraded-container"></div>
+		<div id="upgraded-container">
+			<div>
+				<img id="img-factory_small" src="img/usineS.png">
+				<img id="img-factory_mid" src="img/factory_midle.png">
+				<img id="img-factory_big" src="img/usineL.png">
+			</div>
+			<div class="">
+				<img id="img-waste" src="img/waste.png">
+				<img id="img-waste_nuk" src="img/waste_nuk.png">
+			</div>
+			<div class="">
+				<img id="img-boat_small" src="img/boat_little.png">
+				<img id="img-boat_mid" src="img/boat_midle.png">
+				<img id="img-boat_big" src="img/containerShip.png">
+			</div>
+		</div>
 		<div id="upgrades">
 			<h2>Améliorations</h2>
 			<div id="upgrades-list">
@@ -70,7 +85,7 @@
 	<script src="global.js"></script>
 	<script src="upgrade.js"></script>
 	<script src="fish.js"></script>
-	<script src="nautilus.js"></script>
+	<script src="pipe.js"></script>
 </body>
 
 </html>

@@ -4,15 +4,15 @@ const upgradesDiv = {
 	"pipe": [],
 };
 
-const typeUpgrade = {
-	"boat_small": "img/boat_little.png",
-	"boat_mid": "img/boat_midle.png",
-	"boat_big": "img/boat_big.png",
-	"factory_small": "img/factory_small.png",
-	"factory_mid": "img/factory_midle.png",
-	"factory_big": "img/factory_big.png",
-	"waste": "img/waste.png",
-	"waste_nuk": "img/waste_nuk.png",
+const idUpgrade = {
+	"boat_small": "img-boat_small",
+	"boat_mid": "img-boat_mid",
+	"boat_big": "img-boat_big",
+	"factory_small": "img-factory_small",
+	"factory_mid": "img-factory_mid",
+	"factory_big": "img-factory_big",
+	"waste": "img-waste",
+	"waste_nuk": "img-waste_nuk",
 };
 const coastUpgrade = {
 	"boat_small": 300,
@@ -65,7 +65,6 @@ function buyUpgradeIfPossible(elem) {
 	const upgradeEffectType = elem.getAttribute("data-effect-type");
 	const upgradeCost = coastUpgrade[upgradeEffectType];
 	const upgradeEffectDelay = delayEffectUpgrade[upgradeEffectType];
-	const srcImg = typeUpgrade[upgradeEffectType];
 	const nbrFishToAdd = nbrFishToAddForUpgrade[upgradeEffectType];
 
 	if (score >= upgradeCost || true) { // TODO : enlever le true
@@ -78,17 +77,13 @@ function buyUpgradeIfPossible(elem) {
 			updateScore(-upgradeCost);
 
 
-			const upgradeDiv = document.createElement("img");
-			//TODO : place en fonciton du type d'upgrade
-			upgradeDiv.className = "upgraded";
-			upgradeDiv.src = srcImg;
+			//TODO afficher le bon upgrade
+			document.getElementById(idUpgrade[upgradeEffectType]).style.visibility = "visible";
 			setInterval(() => { // effet de l'upgrade
 				for (let i = 0; i < nbrFishToAdd; i++) {
 					spawnFish();
 				}
 			}, upgradeEffectDelay);
-			upgradesDiv[upgradeEffectType].push(upgradeDiv);
-			upgradedContainer.appendChild(upgradeDiv);
 		}
 	} else {
 	}
