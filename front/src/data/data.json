@@ -1,0 +1,224 @@
+{
+  "depths": [
+    {
+      "depth": 0,
+      "comparaison": "Sang = Eau",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Goutte de sang",
+        "OceanImgSrc": "images/goutteEau.webp",
+        "OceanImgAlt": "Goutte d'eau",
+        "title": "Le sang et l'eau des océans : l’essence de la vie",
+        "text": "Le sang humain, comme l’eau des océans, est un élément vital. Le sang transporte l’oxygène et les nutriments à travers notre corps, assurant la survie de nos cellules. De même, les océans régulent le climat, fournissent de l’oxygène grâce au phytoplancton et nourrissent des milliards de personnes. Sans sang, le corps dépérit ; sans océans en bonne santé, la vie sur Terre s’effondre.\n\n"
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schema de sang en mauvais etat",
+        "OceanImgSrc": "images/eauPolluee.webp",
+        "OceanImgAlt": "Eau polluée",
+        "title": "Pollution : le poison des veines et des vagues",
+        "text": "Un sang intoxiqué nuit au corps, tout comme les océans pollués affectent notre planète. Plastiques, produits chimiques et rejets agricoles étouffent les écosystèmes marins. Cette pollution détruit les habitats, empoisonne les poissons et perturbe la chaîne alimentaire. Tout comme une transfusion peut sauver un malade, nous pouvons agir : réduire les déchets, adopter des pratiques durables et nettoyer les zones polluées. Les océans, comme notre sang, méritent d’être purifiés pour préserver la vie.\n\n"
+      }
+    },
+    {
+      "depth": 1,
+      "comparaison": "Fleuve = Veine",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Bras avec de grosses veines",
+        "OceanImgSrc": "images/deltaFleuve.webp",
+        "OceanImgAlt": "Vue aerienne d'un fleuve",
+        "title": "Les fleuves et les veines : des voies vitales",
+        "text": "Les fleuves, comme les veines, transportent la vie. Les veines acheminent le sang chargé d’oxygène et de nutriments à travers le corps, tandis que les fleuves alimentent les terres en eau douce, irriguent les cultures et nourrissent les écosystèmes terrestres et aquatiques."
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Bras avec des bleus",
+        "OceanImgSrc": "images/fleuvePollue.webp",
+        "OceanImgAlt": "Vue aérienne d'un fleuve pollué",
+        "title": "Blocage et pollution : les ennemis des veines et des fleuves",
+        "text": "Un blocage dans une veine provoque des maladies graves, tout comme la pollution ou la surexploitation d’un fleuve menace les habitats, assèche les terres et coupe l’approvisionnement en eau des populations et des espèces. Protéger nos fleuves, c’est préserver les \"veines\" de la Terre."
+      }
+    },
+    {
+      "depth": 2,
+      "comparaison": "Coeur = Courant marin",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schéma d'un coeur humain",
+        "OceanImgSrc": "images/courantMarin.webp",
+        "OceanImgAlt": "Schéma sur les courants marins",
+        "title": "Cœur et courants : les moteurs de la vie",
+        "text": "Le cœur, moteur de notre corps, pompe le sang et alimente chaque organe. Les courants marins, eux, distribuent la chaleur et les nutriments dans les océans, régulant le climat et soutenant la vie marine. Sans ce flux constant, ni le corps ni les océans ne pourraient fonctionner."
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schéma d'un coeur humain en mauvais état",
+        "OceanImgSrc": "https://www.google.com",
+        "OceanImgAlt": "Schéma Montrant l'impact d'un monde sans courant marin",
+        "title": "Arrêt cardiaque et courants perturbés : les menaces vitales",
+        "text": "Une défaillance cardiaque arrête la vie, tout comme les courants perturbés par le réchauffement climatique menacent les écosystèmes océaniques. Protéger ces \"pompes\" est essentiel pour préserver l’équilibre vital."
+      }
+    },
+    {
+      "depth": 3,
+      "comparaison": "Poumon = Plante aquatique/ Photosynthèse",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schéma de la respiration humaine",
+        "OceanImgSrc": "images/photosynthese.webp",
+        "OceanImgAlt": "Schéma de la photosynthèse aquatique",
+        "title": "Poumons et plantes aquatiques : les souffles de la planète",
+        "text": "Nos poumons absorbent l’oxygène vital. Les plantes aquatiques et le phytoplancton produisent plus de 50 % de l’oxygène terrestre, jouant pour la planète le rôle de poumons."
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Dessin d'une personne ayant du mal à respirer",
+        "OceanImgSrc": "https://www.google.com",
+        "OceanImgAlt": "Schéma de la photosynthèse aquatique en mauvais état",
+        "title": "Pollution et maladies : les ennemis des poumons et des plantes aquatiques",
+        "text": "Les maladies pulmonaires, comme la pollution des océans, réduisent cette capacité à maintenir la vie. Limiter nos émissions de CO₂ et protéger ces plantes aquatiques préserve notre souffle et celui de la planète."
+      }
+    },
+    {
+      "depth": 4,
+      "comparaison": "Système immunitaire = Barrière de corail",
+      "fine": {
+        "manImgSrc": "https://www.google",
+        "manImgAlt": "Schéma du système immunitaire",
+        "OceanImgSrc": "images/barriereCorail.webp",
+        "OceanImgAlt": "Barrière de corail",
+        "title": "Système immunitaire et barrières de corail : gardiens de la santé",
+        "text": "Le système immunitaire protège le corps contre les agressions extérieures, comme les infections ou les toxines. De la même manière, les barrières de corail agissent comme un bouclier naturel, protégeant les côtes des tempêtes et des vagues tout en soutenant la biodiversité marine"
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google",
+        "manImgAlt": "Schéma du système immunitaire en mauvais état",
+        "OceanImgSrc": "images/barriereCorailMort.webp",
+        "OceanImgAlt": "Barrière de corail en mauvais état",
+        "title": "Défenses affaiblies et barrières dégradées : les menaces à la santé",
+        "text": "Un système immunitaire affaibli expose le corps aux maladies, tout comme la dégradation des barrières de corail par le réchauffement climatique, l’acidification des océans et la pollution rend les écosystèmes marins vulnérables. Renforcer notre immunité et restaurer les récifs coralliens sont essentiels pour préserver la vie et la résilience des écosystèmes."
+      }
+    },
+    {
+      "depth": 5,
+      "comparaison": "Main = Corail",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Main",
+        "OceanImgSrc": "images/corail.webp",
+        "OceanImgAlt": "Corail",
+        "title": "Main et corail : bâtisseurs d’habitats",
+        "text": "Les mains humaines bâtissent des abris et façonnent des outils, tout comme les coraux construisent les récifs. Ces récifs, véritables \"mains\" des océans, offrent des habitats à des milliers d’espèces."
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Main en mauvais état",
+        "OceanImgSrc": "images/corailMort.webp",
+        "OceanImgAlt": "Corail Mort",
+        "title": "Mains blessées et récifs détruits : les conséquences de l’exploitation",
+        "text": "La destruction des récifs, causée par le réchauffement et la pollution, équivaut à priver les océans de leurs mains. Protégeons ces bâtisseurs pour préserver les écosystèmes marins."
+      }
+    },
+    {
+      "depth": 6,
+      "comparaison": "Intestin = Océan",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schéma de l'intestin",
+        "OceanImgSrc": "images/filtreBaleine.webp",
+        "OceanImgAlt": "Vue aérienne de l'océan",
+        "title": "Intestins et océans : les recycleurs de nutriments",
+        "text": "Les intestins digèrent et absorbent les nutriments essentiels à notre corps. Les océans, eux, recyclent les nutriments et soutiennent les chaînes alimentaires globales."
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schéma de l'intestin en mauvais état",
+        "OceanImgSrc": "images/filtreBaleine.webp",
+        "OceanImgAlt": "Vue aérienne de l'océan pollué",
+        "title": "Déséquilibre et pollution : les menaces à la santé",
+        "text": "Un déséquilibre intestinal nuit à la santé humaine, tout comme la pollution des océans par les plastiques et les métaux lourds déséquilibre les écosystèmes marins. Des régimes sains pour nous et des pratiques durables pour nos océans sont nécessaires."
+      }
+    },
+    {
+      "depth": 7,
+      "comparaison": "Rein = Filtration de l'eau",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schéma d'un rein",
+        "OceanImgSrc": "images/filtreBaleine.webp",
+        "OceanImgAlt": "Schéma de la filtration de l'eau",
+        "title": "Reins et filtration : les gardiens de la pureté",
+        "text": "Les reins filtrent les toxines du sang pour maintenir un corps sain. Les océans, grâce aux zones humides et mangroves, filtrent les polluants et purifient l’eau."
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schéma d'un rein en mauvais état",
+        "OceanImgSrc": "images/oceanPlastique.webp",
+        "OceanImgAlt": "Schéma de la filtration de l'eau en mauvais état",
+        "title": "Surcharge et défaillance : les conséquences de la pollution",
+        "text": "La surcharge des reins par des toxines, comme la pollution des océans, entraîne des défaillances. Préserver les mangroves et réduire les déchets industriels revient à protéger les \"reins\" de notre planète."
+      }
+    },
+    {
+      "depth": 7,
+      "comparaison": "Microbiote = espèces marines ; Antibiotiques -> tue",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schéma du microbiote",
+        "OceanImgSrc": "images/tortue.webp",
+        "OceanImgAlt": "Schéma des espèces marines",
+        "title": "Microbiote et espèces marines : équilibre et biodiversité",
+        "text": "Le microbiote, constitué de milliards de micro-organismes, maintient l’équilibre du corps humain. Les espèces marines remplissent un rôle similaire dans les océans."
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Schéma du microbiote en mauvais état",
+        "OceanImgSrc": "images/tortueMorte.webp",
+        "OceanImgAlt": "Schéma des espèces marines en mauvais état",
+        "title": "Déséquilibre et extinction : les conséquences de la surpêche",
+        "text": "Les antibiotiques détruisent les bonnes bactéries, tout comme la surpêche et la pollution détruisent les espèces marines. Restaurer la biodiversité, terrestre ou aquatique, garantit la santé de ces systèmes."
+      }
+    },
+    {
+      "depth": 7,
+      "comparaison": "Cimetière = Pétrole off-shore",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Cimetière",
+        "OceanImgSrc": "images/plateformePetroliere.webp",
+        "OceanImgAlt": "Plateforme pétrolière",
+        "title": "Cimetières et pétrole : mémoire et ressources",
+        "text": "Un cimetière symbolise la fin de la vie et la mémoire du passé. Les puits de pétrole offshore, vestiges d’anciens organismes fossilisés, rappellent une ressource épuisée."
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Cimetière en mauvais état",
+        "OceanImgSrc": "images/mareeNoire.webp",
+        "OceanImgAlt": "Marée noire",
+        "title": "Destruction et pollution : les conséquences de l'exploitation",
+        "text": "Exploiter ces gisements revient à réveiller les morts, avec des conséquences catastrophiques : marées noires, destruction des habitats. Passer aux énergies renouvelables honorerait mieux ce \"cimetière\" sous-marin."
+      }
+    },
+    {
+      "depth": 7,
+      "comparaison": "Fievre = Réchauffement de l'eau",
+      "fine": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Personne avec de la fièvre",
+        "OceanImgSrc": "fievreOcean.webp",
+        "OceanImgAlt": "Eau chaude",
+        "title": "Fièvre et réchauffement des océans : signes de déséquilibre",
+        "text": "La fièvre est une réponse du corps à une infection, mais si elle devient trop intense, elle perturbe les fonctions vitales. De même, le réchauffement des océans provoqué par le changement climatique est une réaction à l’excès de gaz à effet de serre, mais il menace gravement les écosystèmes marins."
+      },
+      "cursed": {
+        "manImgSrc": "https://www.google.com",
+        "manImgAlt": "Personne avec de la fièvre en mauvais état",
+        "OceanImgSrc": "images/rechauffementOcean.webp",
+        "OceanImgAlt": "Eau chaude en mauvais état",
+        "title": "Dommages irréversibles : les conséquences du réchauffement",
+        "text": "Une fièvre non traitée peut causer des dommages irréversibles. De la même façon, si nous n’agissons pas rapidement pour réduire les émissions de CO₂, la montée en température des océans entraînera la mort de coraux, la migration forcée d’espèces, et la perturbation des courants marins."
+      }
+    }
+  ]
+}
